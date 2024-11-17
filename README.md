@@ -3,7 +3,19 @@
 
 This API provides role-based access to manage to-do lists for Employees, Company Admins, and Super Users.
 
+## Role-Based Access Control
 
+### Roles and Permissions:
+1. **Employee**:
+   - Can view only their own data.
+   - Cannot access or manage data for other users.
+2. **Company Admin**:
+   - Can view and manage data for employees within their organization.
+   - Cannot access data for other Company Admins or Super Users.
+3. **Super User**:
+   - Has full access to view and manage all users and their data in the system.
+
+---
 
 
 ---
